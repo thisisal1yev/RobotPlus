@@ -71,8 +71,8 @@ RobotPlus/
 **Ishni boshlash:**
 ```bash
 cd frontend
-npm install
-npm run dev
+bun install
+bun dev
 ```
 
 ---
@@ -147,21 +147,21 @@ uvicorn main:app --reload --port 8000
 
 ```bash
 cd frontend
-npm install
+bun install
 
 # .env faylini yarating
 cp .env.example .env
 # REACT_APP_API_URL=http://localhost:8000
 
 # Dev serverni ishga tushirish
-npm run dev
+bun dev
 ```
 
 ### 4. Tekshirish
 
 - Frontend: [http://localhost:5173](http://localhost:5173)
 - Backend API: [http://localhost:8000](http://localhost:8000)
-- API hujjatlari: [http://localhost:8000/docs](http://localhost:8000/docs)
+- API doc: [http://localhost:8000/docs](http://localhost:8000/docs)
 
 ---
 
@@ -194,10 +194,3 @@ refactor/<qisqa-tavsif>  # kodni qayta yozish
 Backend ishga tushirilgandan so'ng:
 
 - **Swagger UI:** `http://localhost:8000/docs`
-- **ReDoc:** `http://localhost:8000/redoc`
-
----
-
-## 📄 Litsenziya
-
-Ushbu loyiha [MIT](LICENSE) litsenziyasi ostida tarqatiladi.
