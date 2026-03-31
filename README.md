@@ -113,9 +113,9 @@ uvicorn main:app --reload
 
 | Asbob | Versiya |
 |-------|---------|
-| Node.js | 18+ |
-| Python | 3.11+ |
-| PostgreSQL | 15+ |
+| Node.js | 22+ |
+| Python | 3.14+ |
+| PostgreSQL | 17+ |
 | Git | 2.40+ |
 
 ### 1. Repozitoriyni klonlash
