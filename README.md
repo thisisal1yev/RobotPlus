@@ -63,7 +63,7 @@ RobotPlus/
 - Responsive dizayn va UX
 
 **Texnologiyalar:**
-- React 18+
+- React 19+
 - React Router
 - Axios / TanStack Query
 - Recharts (grafik va vizualizatsiya)
@@ -89,7 +89,7 @@ npm run dev
 - WebSocket orqali real vaqt ma'lumot uzatish
 
 **Texnologiyalar:**
-- Python 3.11+
+- Python 3.14+
 - FastAPI
 - SQLAlchemy / Alembic
 - PostgreSQL
