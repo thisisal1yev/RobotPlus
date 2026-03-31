@@ -98,10 +98,8 @@ bun dev
 **Ishni boshlash:**
 ```bash
 cd backend
-python -m venv venv
-source venv/bin/activate      # Windows: venv\Scripts\activate
-pip install -r requirements.txt
-uvicorn main:app --reload
+poetry install
+poetry run uvicorn main:app --reload
 ```
 
 ---
@@ -126,21 +124,18 @@ cd RobotPlus
 
 ### 2. Backend sozlash
 
-```bash
-cd backend
-python -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
+```cd backend
+poetry install
 
 # .env faylini yarating
 cp .env.example .env
 # .env ichidagi o'zgaruvchilarni to'ldiring
 
 # Ma'lumotlar bazasini migratsiya qilish
-alembic upgrade head
+poetry run alembic upgrade head
 
 # Serverni ishga tushirish
-uvicorn main:app --reload --port 8000
+poetry run uvicorn main:app --reload --port 8000
 ```
 
 ### 3. Frontend sozlash
